@@ -14,12 +14,13 @@
 
 .menu-items{
     display: flex;
+    margin-right: 150px;
 }
 
 .menu-items li{
     list-style: none;
-    margin: 5px;
-    padding: 10px;
+    /* margin: 5px; */
+    padding: 15px;
     font-size: 18px;
 }
 
@@ -29,34 +30,124 @@
 }
 .banner-container
 {
+    display: flex;
     color: white;
     display: flex;
     width: 100%;
     align-items: center;
     height: 100vh;
     background-color: black;
+    margin: 0 auto;
    
     /* justify-content: space-evenly; */
 }
+
 .banner-description{
     margin-left: 50px;
 }
 .banner-text{
     color: red;
-    font-size: 20px;
+    font-size: 24px;
 }
 .title1
 {
-    font-size: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px;
+    
 }
 .text{
     font-size: 25px;
     margin: 10px;
 }
+
 .banner-btn{
-    padding:15px 30px;
+    padding:19px 45px;
+    border-radius: 5px;
     background-color: rgb(244,6,45);
-    margin: 10px;
-    font-size: 18px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
     color: white;
+}
+
+.banner-img  img{
+    width: 100%;
+}
+
+/* section 2 */
+.title2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+
+}
+.section-two{
+    margin-top:70px ;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    width:270px;
+    /* height: 200px; */
+    border: 1px solid gray;
+    text-align: center;
+    box-shadow: 8px 8px 16px gray;
+    padding: 25px 5px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .8ms;
+}
+.card1:hover{
+    border: 1px solid rgb(243,29,29);
+    margin-top: -10px;
+    border-radius: 10px;
+    transition: .5ms;
+}
+.gym-icon{
+    width: 70px;
+}
+/* about */
+.about-container{
+    background-color: black;
+    color: white;
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+}
+.about-left{
+    width: 700px;
+    border: 1px solid rgb(23,22,22);
+}
+.workout-image{
+    display: flex;
+    margin-top: 50px;
+}
+.workout-image img{
+    width: 250px;
+    height: 350px;
+    transform: skewX(-15deg);
+}
+.btn-text{
+    text-decoration: none;
+    color: white;
+}
+.about-right{
+    margin-left: 10px;
+}
+.workout-container{
+    width: 600px;
+    height: 200px;
+    /* background-color: black; */
+    background-image: url("./images/shape/Group_33094_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
